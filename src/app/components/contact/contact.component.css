@@ -1,0 +1,15 @@
+a.btn.btn-small svg {
+  margin-top: 14px;
+  margin-right: 10px;
+}
+svg:not(:root).svg-inline--fa {
+  overflow: visible;
+  color: wheat;
+}
+svg:not(:root).svg-inline--fa:hover {
+  color: #8f5eff;
+}
+
+svg[_ngcontent-c12]:not(:root).svg-inline--fa {
+  margin-right: 8px;
+}

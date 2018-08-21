@@ -1,0 +1,135 @@
+<div id="onepage-footer" class="c-onepage-footer  wow fadeIn">
+    <div class="footer-content">
+        <div class="o-newsletter-form-content">
+            <div class="container">
+                <form class="o-common-card o-newsletter-form">
+                    <div class="row align-items-center">
+                        <div class="col-lg-3">
+                            <h4>Newsletter</h4>
+                            <p>Sign up for ICO campaign updates.</p>
+                            <div *ngIf="emails">
+                            </div>
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="o-newsletter row">
+                                <!-- <div class="col-md">
+                                    <input type="text" placeholder="Full Name" name="fname">
+                                </div> -->
+                                <div class="col-md">
+                                    <input #email type="email"placeholder="Email Address" >
+                                </div>
+                                <div class="col-md-auto">
+                                    <button (click)="subscribe(email.value); email.value=''" class="btn">SUBSCRIBE</button>
+                                </div>
+                            </div>
+                            <!-- End of .o-newsletter -->
+                        </div>
+                    </div>
+                    <!-- End of .row -->
+                </form>
+            </div>
+            <!-- End of .container -->
+        </div>
+        <!-- End of .o-newsletter-form -->
+
+        <div class="container">
+            <div class="o-footer-nav">
+                <div class="row">
+                    <div class="col-md-2">
+                        <h6>COMPANY</h6>
+                        <ul class="footer-widget">
+                            <li>
+                                <a href="#about">About</a>
+                            </li>
+                            <li>
+                                <a href="#team">Team</a>
+                            </li>
+                            <li>
+                                <a href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                        <!-- End of .company-footer-widget -->
+                    </div>
+                    <div class="col-md-2">
+                        <h6>ICO FUNDING</h6>
+                        <ul class="footer-widget">
+                            <li>
+                                <a href="#features">Features</a>
+                            </li>
+                            <li>
+                                <a href="#product">Product</a>
+                            </li>
+                            <li>
+                                <a href="#roadmap">Roadmap</a>
+                            </li>
+                            <li>
+                                <a href="#tokens">Token</a>
+                            </li>
+                        </ul>
+                        <!-- End of .company-footer-widget -->
+                    </div>
+                    <div class="col-md-4">
+                        <h6>WE ACCEPT CREDIT CARDS</h6>
+                        <div class="footer-widget o-credit-cards">
+                            <img src="../../../assets/images/credit-cards/1.jpg" alt="credit card">
+                            <img src="../../../assets/images/credit-cards/2.jpg" alt="credit card">
+                            <img src="../../../assets/images/icons/paypal.jpeg" alt="credit card">
+                            <img src="../../../assets/images/credit-cards/2.jpg" alt="credit card">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <h6>ABOUT</h6>
+                        <div class="o-tweet-widget">
+                                <h6>ZipCoin – ​The true peer-to-peer (P2P)</h6>
+                                <p>Tranding platform of the future!</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of .row -->
+            </div>
+            <!-- End of .o-footer-nav -->
+
+            <div class="o-footer-bottom">
+                <div class="row no-gutters">
+                    <div class="col-md">
+                        <p class="copyright-txt">Copyright &copy; 2018. All rights reserved by
+                            <a href="#"> <b>ZipCoin</b></a>.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="o-follow-us text-md-center">
+                            <a href="https://www.facebook.com/ZipCoin-Exchange-2205861812988417/" target="_blank" rel="noopener">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/company/18773379/admin/overview" target="_blank" rel="noopener">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://www.reddit.com/user/zipcoinexchange" target="_blank" rel="noopener">
+                                <i class="fab fa-reddit"></i>
+                            </a>
+                            <a href="httos://www.twitter.com/zipcoinexchange" target="_blank" rel="noopener">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://www.instagram.com/p/Bmlhj-IDlHj/?utm_source=ig_share_sheet&igshid=1dr241rinh0jo" target="_blank" rel="noopener">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://web.telegram.org/@zipcoinexchange" target="_blank" rel="noopener">
+                                <i class="fab fa-telegram"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="o-terms-privacy text-right">
+                            <a href="#" data-toggle="modal" data-target="#terms-modal"> Terms &amp; Conditions</a> . 
+                            <a href="#" data-toggle="modal" data-target="#privacy-modal"> Privacy Policy</a> . 
+                            <a href="#" data-toggle="modal" data-target="#use-modal"> Terms of Use</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of .row -->
+            </div>
+            <!-- End of .footer-bottom -->
+        </div>
+        <!-- End of .container -->
+    </div>
+    <!-- End of .footer-content -->
+</div>

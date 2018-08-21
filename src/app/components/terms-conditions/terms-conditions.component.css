@@ -1,0 +1,13 @@
+.c-onepage-modal .modal-body .close {
+  color: white;
+  font-size: 25px;
+}
+
+.o-follow-us {
+  font-size: 16px;
+  width: 386.1px;
+  line-height: 30px;
+  color: #d1e1ff;
+  transition: all .5s;
+  margin-bottom: 10px;
+}

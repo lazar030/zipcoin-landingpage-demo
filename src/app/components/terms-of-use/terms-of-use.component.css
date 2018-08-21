@@ -1,0 +1,12 @@
+.c-onepage-modal .modal-body .close {
+  color: white;
+  font-size: 25px;
+}
+
+.abc {
+  list-style-type: lower-alpha;
+}
+
+.num {
+  list-style-type: upper-roman;
+}

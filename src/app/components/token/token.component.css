@@ -1,0 +1,24 @@
+.mycontainer {
+  margin: 0 auto;
+  margin-left: 15%;
+}
+.col-lg-2 {
+  width: 461px;
+}
+
+.mycontainer h2 {
+  margin-left: 35%;
+  margin-bottom: 5%;
+}
+
+.progressbar-block .progress-label {
+  display: block;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 12px;
+  margin-top: 15px;
+}
+
+.o-best-price-box img {
+  height: 35px;
+}

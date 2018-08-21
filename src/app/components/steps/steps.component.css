@@ -1,0 +1,84 @@
+@media only screen and (min-width: 645px) {
+.l-con, .r-con {
+  /* border: solid; */
+  width: 400px;
+}
+}
+.l-con {
+  float: left;
+  margin-top: 50px;
+}
+
+.r-con {
+  float: right;
+  margin-top: 50px;
+}
+
+.r-con.two {
+  height: 100px;
+}
+li {
+  list-style-type: none;
+}
+
+.o-roadmap {
+  float: left;
+}
+
+.o-roadmap .o-common-card::before {
+  right: 0;
+  visibility: hidden
+}
+.o-roadmap .roadmap-right .o-common-card::before {
+  left: 0;
+  visibility: hidden;
+}
+
+#myDiv {
+    display: none;
+}
+#myDiv {
+    display: block;
+}
+
+.r-con.one {
+  margin-top: 100px;
+}
+.col-lg-10 {
+  margin: 0 auto;
+
+}
+
+p {
+  color: #eee;
+  cursor: pointer;
+}
+
+p:hover {
+  cursor: pointer;
+  font-size: 18px;
+  color: white;
+}
+span {
+  float: left;
+}
+
+.first {
+  margin-right: 20px;
+}
+
+.second {
+  margin-right: 20px;
+}
+
+.third {
+  margin-right: 20px;
+}
+
+.fourth {
+  margin-right: 20px;
+} 
+
+#steps_ {
+  margin-bottom: 200px;
+}

@@ -1,0 +1,40 @@
+h2 {
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: left;
+  min-width: auto;
+}
+
+.hiddenP {
+  color: transparent;
+}
+
+.o-benifits .benifit-icon {
+  height: 388px;
+}
+
+.mycontainer {
+  margin: 5%;
+}
+
+svg:not(:root).svg-inline--fa {
+  margin-top: 20px;
+  font-size: 273px;
+  opacity: 0.1;
+  color: black;
+}
+
+p{
+  line-height: 1;
+}
+
+@media only screen and (max-width: 1600px) {
+  svg[_ngcontent-c6]:not(:root).svg-inline--fa {
+      margin-top: 20px;
+      font-size: 180px;
+      opacity: 0.1;
+      color: black;
+  }
+}

@@ -1,0 +1,33 @@
+.myh5 {
+  height: 102px;
+}
+
+.o-common-card .img-container img {
+  height: 400px;
+}
+
+.o-common-card h5 {
+  height: 140px;
+}
+
+.mycontainer {
+  margin: 0 auto;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.o-common-card h5 a {
+  height: 50px;
+}
+
+.svg-inline--fa.fa-w-16 {
+  font-size: 45px;
+}
+
+p {
+  line-height: 1;
+}
+
+.o-common-card h5 span {
+  margin-right: 27px;
+}

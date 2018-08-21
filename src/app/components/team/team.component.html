@@ -1,0 +1,66 @@
+<div id="team" class="section c-onepage-team d-flex wow fadeIn">
+    <div class="mycontainer">
+<div class="team-tab">
+    <nav class="o-common-nav-tab">
+        <div class="nav nav-tabs" id="team-tab" role="tablist">
+            <a class="nav-item nav-link active" data-toggle="tab" href="#team-tab-1" role="tab" aria-controls="team-tab-1" aria-selected="true">OPERATING TEAM</a>
+            <a class="nav-item nav-link" data-toggle="tab" href="#team-tab-2" role="tab" aria-controls="team-tab-2" aria-selected="false">ADVISORY BOARD</a>
+        </div>
+        <!-- End of .nav-tabs -->
+    </nav>
+    <!-- End of .nav -->
+    <div class="tab-content" id="team-tab-Content">
+        <div class="tab-pane fade show active" id="team-tab-1" role="tabpanel" aria-labelledby="team-tab-1">
+            <div class="row" >
+                <div class="col-xl-3 col-lg-4 col-md-6" *ngFor="let t of team">
+                    <div class="o-common-card">
+                        <div class="img-container">
+                            <img src="../../../assets/images/1.jpg" alt="team member">
+                            <p>
+                               {{t.desc}}
+                            </p>
+                        </div>
+                        <!-- End of .img-container -->
+                        <h5> {{t.name}}
+                            <span>{{t.title}}</span>
+                            <a href="https://www.linkedin.com/" target="_blank" rel="noopener">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </h5>
+                    </div>
+                    <!-- End of .o-common-card -->
+                </div>
+
+            </div>
+            <!-- End of .row -->
+        </div>
+        <!-- End of .tab-pane -->
+
+        <div class="tab-pane fade" id="team-tab-2" role="tabpanel" aria-labelledby="team-tab-2">
+            <div class="row">
+                <div class="col-xl-3 col-lg-4 col-md-6" *ngFor="let t2 of team2">
+                    <div class="o-common-card">
+                        <div class="img-container">
+                            <img src="../../../assets/images/1.jpg" alt="team member">
+                            <p>
+                                {{t2.desc}}
+                            </p>
+                        </div>
+                        <!-- End of .img-container -->
+                        <h5>{{t2.name}}
+                            <span>{{t2.title}}</span>
+                            <a href="https://www.linkedin.com/" target="_blank" rel="noopener">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </h5>
+                    </div>
+                    <!-- End of .o-common-card -->
+                </div>
+                <!-- End of .col-md-3 -->
+            </div>
+            <!-- End of .row -->
+        </div>
+        <!-- End of .tab-pane -->
+    <!-- End of .team -->
+    </div>
+</div>
