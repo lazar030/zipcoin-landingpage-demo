@@ -38,7 +38,7 @@
     "no-kafka": "^3.2.10",
     "node-exiftool": "^2.3.0",
     "node-thumbnail": "^0.14.0",
-    "nodemailer": "^4.6.3",
+    "nodemailer": "^6.4.16",
     "palin": "^2.2.0",
     "pg": "^7.4.3",
     "request": "^2.87.0",
